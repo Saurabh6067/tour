@@ -1,6 +1,6 @@
 .card-border{
-    border: none;
+    border: none !important;
 }
 .card-border:hover{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(239, 17, 17, 0.582);
 }

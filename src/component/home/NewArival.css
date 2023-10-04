@@ -1,0 +1,11 @@
+.card-arival{
+    border: none !important;
+}
+.card-arival:hover {
+    border: 1px solid transparent !important; 
+    border-image: linear-gradient(45deg, rgb(8, 1, 1), rgb(17, 151, 208), rgb(5, 209, 66)) !important; 
+    border-image-slice: 1 !important; 
+    border-image-width: 1px !important; 
+    border-image-outset: 0 !important;
+    /* border-radius: 10%; */
+  }

@@ -9,3 +9,30 @@
     text-align: justify;
     font-size: 4vw;
 }
+.feature-text1{
+    font-size: 1.3vw;
+}
+@media (max-width: 767px) {
+    .feature-img {
+      background: none; /* Remove the background image on mobile */
+    }
+  
+    .col-sm-6 {
+      text-align: center; /* Center the content in each column */
+    }
+  
+    .feature-text {
+      font-size: 18px; /* Adjust the font size for the text */
+    }
+  
+    .feature-text1 {
+      font-size: 14px; /* Adjust the font size for the text */
+    }
+  
+    .btn {
+      margin-top: 10px; /* Add some top margin to the button */
+    }
+  
+    /* You can adjust other styles as needed for mobile view */
+  }
+  
