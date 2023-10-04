@@ -1,0 +1,44 @@
+.browser-col{
+    background-color: rgba(121, 114, 114, 0.123);
+    height: 350px;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+   
+   
+}
+.bro-img{
+    height: 250px;
+    width: 200px;
+    margin-top: -40px;
+}
+.browser-col1{
+    background-color: rgba(121, 114, 114, 0.123);
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.bro-img1{
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+}
+@media (max-width: 767px) {
+    .browser-col {
+      text-align: center; /* Center the content in each column */
+      margin-top: 20px; /* Add some top margin to separate the columns */
+    }
+  
+    .browser-col1 {
+      text-align: center; /* Center the content in each column */
+      margin-top: 20px; /* Add some top margin to separate the columns */
+    }
+  
+    .mt-4 {
+      margin-top: 10px; /* Decrease the top margin for headings */
+    }
+  
+    /* You can adjust other styles as needed for mobile view */
+  }
+  

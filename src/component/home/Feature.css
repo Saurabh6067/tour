@@ -1,0 +1,11 @@
+.feature-img{
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feature-text{
+    margin-top: 100px;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+    font-size: 4vw;
+}

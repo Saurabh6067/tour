@@ -1,0 +1,59 @@
+/* Default styles for larger screens */
+.slider-background {
+    background-color: rgba(142, 138, 138, 0.4);
+    color: #0b0b0b;
+    padding: 40px;
+    height: 600px;
+  }
+  
+  .slider-background .col:first-child {
+    text-align: left;
+  }
+  
+  .slider-background h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  
+  .slider-background p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .slider-background img {
+    max-width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 767px) {
+    .slider-background {
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .slider-background h1 {
+      font-size: 28px; /* Decrease font size for headings */
+    }
+  
+    .slider-background p {
+      font-size: 16px; /* Decrease font size for paragraphs */
+      margin-top: 10px; /* Adjust spacing between paragraphs */
+    }
+  
+    .slider-background button {
+      margin-top: 20px; /* Add margin to the button */
+    }
+  }
+  
+  /* Media query for tablet view */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider-background {
+      padding: 30px; /* Adjust padding for tablets */
+    }
+  
+    .slider-background h1 {
+      font-size: 32px; /* Adjust font size for headings on tablets */
+    }
+  }
+  

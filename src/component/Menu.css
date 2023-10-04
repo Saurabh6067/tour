@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.navlink {
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navlink1:hover {
+    border-bottom: 4px solid orangered;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+.navlink2:hover {
+    border-bottom: 4px solid orangered;
+}
+
+.navlink3:hover {
+    border-bottom: 4px solid orangered;
+}
+
+.navlink4:hover {
+    border-bottom: 4px solid orangered;
+}
+
+.social-icon {
+
+    font-size: 25px;
+    margin-top: 10px;
+}
+.bi-instagram{
+    color: red; 
+}
+.bi-facebook{
+    color: blue;
+}
+.bi-whatsapp{
+    color: rgb(51, 208, 51);
+}
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+    .bg-body-tertiary {
+      background-color: #f0f0f0; /* Example background color for mobile navbar */
+    }
+  
+    .navlink1 {
+      font-size: 16px; /* Example font size for mobile navigation links */
+    }
+  
+    .social-icon {
+      font-size: 24px; /* Example font size for mobile social icons */
+    }
+  }
+  
