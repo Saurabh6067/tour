@@ -1,0 +1,10 @@
+.sale-img{
+    height: 500px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.sale-text{
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin-top: 40px;
+}

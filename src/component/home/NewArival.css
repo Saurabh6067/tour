@@ -1,7 +1,5 @@
-.card-arival{
-    border: none !important;
-}
-.card-arival:hover {
+
+.card-arival {
     border: 1px solid transparent !important; 
     border-image: linear-gradient(45deg, rgb(8, 1, 1), rgb(17, 151, 208), rgb(5, 209, 66)) !important; 
     border-image-slice: 1 !important; 

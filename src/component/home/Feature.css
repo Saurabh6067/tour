@@ -1,7 +1,7 @@
 .feature-img{
     height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 .feature-text{
     margin-top: 100px;

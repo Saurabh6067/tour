@@ -31,7 +31,7 @@ function NewArival() {
           </Card>
         </Col>
         <Col className='col-sm-3 text-center p-3'>
-          <Card>
+          <Card className='card-arival'>
             <Card.Img variant="top" src="img/new2.jpg" />
             <Card.Body>
               <Card.Title>AuraSound VintagePlayer-Wood Texture</Card.Title>
@@ -50,7 +50,7 @@ function NewArival() {
           </Card>
         </Col>
         <Col className='col-sm-3 text-center p-3'>
-          <Card>
+          <Card className='card-arival'>
             <Card.Img variant="top" src="img/new3.jpg" />
             <Card.Body>
               <Card.Title>AuraSound VintagePlayer-Wood Texture</Card.Title>
@@ -69,7 +69,7 @@ function NewArival() {
           </Card>
         </Col>
         <Col className='col-sm-3 text-center p-3'>
-          <Card>
+          <Card className='card-arival'>
             <Card.Img variant="top" src="img/sp1.jpg" />
             <Card.Body>
               <Card.Title>AuraSound VintagePlayer-Wood Texture</Card.Title>

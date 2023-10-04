@@ -5,6 +5,8 @@ import Browse from "./Browse";
 import Flash from "./Flash";
 import Feature from "./Feature";
 import NewArival from "./NewArival";
+import About from "./About";
+import Sale from "./Sale";
 function Main(){
     return(
         <>
@@ -14,6 +16,8 @@ function Main(){
             <Flash/>
             <Feature/>
             <NewArival/>
+            <About/>
+            <Sale/>
         </Container>
         </>
     );
