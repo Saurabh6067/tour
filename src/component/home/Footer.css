@@ -1,0 +1,31 @@
+.footer-col{
+margin-top: 60px !important;    
+}
+.footer-text{
+    font-size: 20px;
+    text-align: justify;
+    /* color: white; */
+}
+
+@media (max-width: 767px) {
+    .footer-row {
+      flex-direction: column; 
+    }
+  
+    .col-sm-6.footer-col,
+    .col-sm-2.footer-col {
+      width: 100%; 
+      margin-bottom: 20px; 
+    }
+  
+  
+    .footer-text {
+      font-size: 14px; 
+    }
+  
+    .footer-col h4 {
+      font-size: 16px; 
+    }
+  
+  }
+  

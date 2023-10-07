@@ -6,7 +6,7 @@
 .feature-text{
     margin-top: 100px;
     color: rgb(7, 7, 7);
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 4vw;
 }
 .feature-text1{

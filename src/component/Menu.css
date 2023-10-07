@@ -7,6 +7,12 @@
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+.navlink1{
+    text-decoration: none;
+    border-bottom: 4px solid #f8f9fa;
+
 }
 
 .navlink1:hover {
