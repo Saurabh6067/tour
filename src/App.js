@@ -10,6 +10,8 @@ import Login from './Login';
 import Admin from './Admin-pannel/Admin';
 import Dashbord from './Admin-pannel/Dashbord';
 import Report from './Admin-pannel/Report';
+import Userefff from './Userefff';
+import Fetch from './jsonnn/Fetch';
 // import AboutMain from './component/aboutsection/AboutMain';
 
 
@@ -29,6 +31,9 @@ function App() {
         <Route path='/admin' element={<Admin />}/>
         <Route path='/dash' element={<Dashbord />}/>
         <Route path='/report' element={<Report />}/>
+        <Route path='/reff' element={<Userefff />}/>
+        <Route path='/fet' element={<Fetch />}/>
+
 
 
         {/* <Route path='/about' element={<AboutMain/>}/> */}

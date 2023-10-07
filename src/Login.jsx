@@ -17,6 +17,7 @@ function Login() {
                 title: 'Login Successful!',
                 text: 'You have successfully logged in.',
                 icon: 'success',
+                
             });
             navigate('/home');
         } else {
